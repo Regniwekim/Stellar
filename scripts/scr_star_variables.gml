@@ -1,0 +1,21 @@
+spd = random_range(3,6);
+cur_spd = spd;
+dir = 270;
+cur_dir = dir;
+
+clicked = 0;
+type = 0;
+angle = random(360);
+size = random_range(0.65,1);
+spin = random_range(-1.5,1.5);
+image_xscale = size;
+image_yscale = size;
+image_angle = angle;
+alarm[0] = 1;
+image_speed = 0;
+image_xscale = size;
+image_yscale = size;
+image_angle = angle;
+w_timer = 0;
+c_timer = 0;
+stage = 0;
